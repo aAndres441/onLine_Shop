@@ -6,12 +6,12 @@ import { AdminComponent } from './admin.component';
 
 const MODULES = [CommonModule, AdminRoutingModule];
 
-const COMPONENTS = [];
+const COMPONENTS = [AdminComponent];
 
 
 @NgModule({
 
-  declarations: [AdminComponent],
+  declarations: [...COMPONENTS],
 
   imports: [
     ...MODULES,

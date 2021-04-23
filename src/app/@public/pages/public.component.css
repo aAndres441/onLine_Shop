@@ -177,6 +177,10 @@ li {
    padding-bottom: .5rem;
   } */
 
+  .fa{
+    color:#50a708;
+  }
+  
   hr{
     border-color: #c0dde4;
     border-width: .3rem;

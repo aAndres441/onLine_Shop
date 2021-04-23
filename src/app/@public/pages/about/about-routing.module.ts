@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { VistaComponent } from './vista.component';
+
+import { AboutComponent } from './about.component';
 
 const routes: Routes = [
-  {path:'',component:VistaComponent}
+  {path:'',component:AboutComponent}
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class VistaRoutingModule { }
+export class AboutRoutingModule { }

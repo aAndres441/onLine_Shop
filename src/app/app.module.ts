@@ -8,16 +8,16 @@ import { PublicModule } from './@public/pages/public.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ErrorComponent } from './error/error.component';
+/* import { ErrorComponent } from './error2/error.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
-
+ */
 const COMPONENTS = [
-  HomeComponent,
+  /* HomeComponent,
   ErrorComponent,
   NavbarComponent,
-  FooterComponent
+  FooterComponent */
 ]
 
 const MODULES = [ 
