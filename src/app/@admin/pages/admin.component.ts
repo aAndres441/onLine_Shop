@@ -5,12 +5,18 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './admin.component.html',
   styleUrls: ['./admin.component.css']
 })
-export class AdminComponent implements OnInit {
+export class AdminComponent  {
 
-  title='Admin';
-  constructor() { }
+  toogleAlHijo = false; /* si pongo false se esconde menu */
+
+  escondeToogle($event){    
+    this.toogleAlHijo=$event;    
+  }
+
+
+  /* constructor() { }
 
   ngOnInit(): void {
-  }
+  } */
 
 }

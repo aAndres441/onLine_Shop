@@ -5,6 +5,10 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+  color:white;
+}
 .comp-container{
   /* display: none; */
   /* width:100rem;*/
@@ -16,7 +20,7 @@
    background-position: center;
    background-size: cover; /* cover contain*/
    /* opacity: 50%; */
- background-repeat: no-repeat;
+  background-repeat: no-repeat;
    /* height: 100vh; */
    /* font-size: 8px; 
    podria definir aca el font y usar rem como medida
@@ -38,18 +42,18 @@
     font-weight: 600;
   }
 
-.comp-nav{
-  background-color: rgb(199, 195, 195);
-}
+  
   .img-responsive{
     /* width:9%; */
     width:2.4rem;
   }
   .content {
+    background-color: #808080;
     display: flex;
     padding: 1rem 0;
     flex-direction: column;
     align-items: center;
+    color:rgb(173, 226, 94);
   }
 
 

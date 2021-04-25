@@ -1,3 +1,8 @@
+
+/* Importo mis estilos desde asset para sidebar descargado */
+
+@import "./../../../assets/styles/admin.scss";
+
 .container{
     display: flex;
     text-align: center;
@@ -7,10 +12,10 @@
   }
   
 .container-fluid{  
-  display: flex;
-  flex-wrap: nowrap;
+  display: inline-block;
+  flex-wrap: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 /* *, ::after, ::before {
   box-sizing: border-box;
@@ -28,17 +33,17 @@
 .navbar {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: space-between;
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
 .navbar-nav li a{
-  color: red;
+  color: #1d9d74;
 }
 .fa{
-  vertical-align: inherit
+  vertical-align: inherit;  
 }
 
 .navbar-brand {
@@ -78,16 +83,16 @@ button, input, optgroup, select, textarea {
   font-size: inherit;
   line-height: inherit;
 }
-button {
-  border-radius: 2em;
-}
+
 *, ::after, ::before {
   box-sizing: border-box;
 }
 .btn{
-  box-shadow: 2px 0 4px  olive;
+  /* box-shadow: 2px 0 4px  olive; */
+  box-shadow: 3px 3px 0 rgb(0 0 0 / 15%);
 }
 button {  
+  border-radius: 1em;
   appearance: auto;
   -webkit-writing-mode: horizontal-tb !important;
   text-rendering: auto;
@@ -134,7 +139,7 @@ button {
 .navbar-nav {
   display: flex;
   flex-direction: row;
-  padding-left: 1rem;
+  padding-left: 11rem;
   margin-bottom: 0;
   list-style: none;
 }
@@ -161,6 +166,7 @@ ul {
 li {
   display: list-item;
   text-align: -webkit-match-parent;
+  padding-left: 5rem;;
 }
 
 
@@ -194,32 +200,3 @@ li {
     /* box-shadow: 0,0,22px,-4px violet; */
    }
    
-    
-  /* fuente titulo */
-  .font-effect-neon{
-    /* font-size: 3em; */
-    color: #c0dde4;
-  }
-  
-  /* .container1{
-    background: linear-gradient(rgba(182, 180, 180, 0.61),rgb(76, 230, 158)),
-      url('./assets/imagenes/fondo.jpg');
-  }
-  .containe2r{
-     background: #200122;  */ /* fallback for old browsers */
-     /* background: -webkit-linear-gradient(to right, #6f0000, #200122);  */ /* Chrome 10-25, Safari 5.1-6 */
-  /*     background: linear-gradient(to right, #6f0000, #200122); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /* } */
-  /* 
-  .container-fluid{     
-   padding-bottom: .5rem;
-  } */
-hr{
-    border-color: #c0dde4;
-    border-width: .3rem;
-    background-color: #75dd20;
-    max-width:80%;
-    margin: 1rem auto ; /* der izq y auto sera arriba y abajo*/
-    opacity: 100%;
-    /* box-shadow: 0,0,22px,-4px violet; */
-   }

@@ -3,15 +3,27 @@ import { CommonModule } from '@angular/common';
 
 import { AdminRoutingModule } from './admin-routing.module';
 import { AdminComponent } from './admin.component';
+import { TitleComponent } from '../core/components/title/title.component';
+import { HeaderComponent } from '../core/components/header/header.component';
+import { SidebarComponent } from '../core/components/sidebar/sidebar.component';
 
-const MODULES = [CommonModule, AdminRoutingModule];
+const MODULES = [
+  CommonModule, 
+  AdminRoutingModule
+];
 
-const COMPONENTS = [AdminComponent];
-
+const COMPONENTS = [
+  AdminComponent, 
+  TitleComponent,
+  HeaderComponent,
+  SidebarComponent
+];
 
 @NgModule({
 
-  declarations: [...COMPONENTS],
+  declarations: [
+    ...COMPONENTS
+  ],
 
   imports: [
     ...MODULES,

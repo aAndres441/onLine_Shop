@@ -8,6 +8,7 @@ import { PublicModule } from './@public/pages/public.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 /* import { ErrorComponent } from './error2/error.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
