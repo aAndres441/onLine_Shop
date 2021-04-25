@@ -1,4 +1,31 @@
 
+.card2{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2px;
+  margin: .3em;
+  display: grid;
+  /* justify-content: space-between; */
+  /* grid-column:flex-end; */
+  /* grid-template-columns: norepeat; */
+  /* display:gridd;
+  grid-template-columns: repeat(11,1f);
+  column-gap: 2rem; */
+}
+.card{
+  width:5rem;
+  box-shadow: 2px 0 4px  olive;
+}
+
   hr{
     border-color: #c0dde4;
     border-width: .3rem;
